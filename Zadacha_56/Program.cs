@@ -25,8 +25,6 @@ for (int i = 1; i < array.GetLength(0); i++)
     }
 }
 
-Console.WriteLine($"Строка с наименьшей суммой элементов: {min + 1} \n(Сумма равна {sum})  ");
-
 
 int SumNums(int[,] array, int i)
 {
@@ -61,3 +59,5 @@ void PrintArray(int[,] array)
         Console.WriteLine();
     }
 }
+
+Console.WriteLine($"Строка с наименьшей суммой элементов: {min + 1} \n(Сумма равна {sum})  ");

@@ -15,7 +15,6 @@ CreateArray(newArray);
 PrintArray(newArray);
 
 
-
 void CreateArray(int[,,] newArray)
 {
     int[] temp = new int[newArray.GetLength(0) * newArray.GetLength(1) * newArray.GetLength(2)];

@@ -9,6 +9,7 @@ int l = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Обозначьте диапазон значений внутри матриц: от 1 до");
 int size = Convert.ToInt32(Console.ReadLine());
 
+
 int[,] first = new int[m, n];
 CreateArray(first);
 Console.ForegroundColor = ConsoleColor.Blue;
